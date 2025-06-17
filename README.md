@@ -30,7 +30,7 @@ Built using **Node.js**, **Express.js**, and **MongoDB Atlas**.
 
 ## Folder Structure
 
-<pre> ``` splitapp/ ├── controllers/ │ ├── expensesController.js # Logic for adding, updating, deleting expenses │ └── settlementsController.js # Logic for balances and settlements │ ├── config/ │ └── config.js # MongoDB Atlas connection │ ├── models/ │ └── Expense.js # Mongoose schema for expenses │ ├── routes/ │ ├── expenses.js # Routes for expense management │ └── settlements.js # Routes for people, balances, settlements │ ├── .env # Environment variables (not committed) ├── .gitignore # Ignore node_modules, .env, etc. ├── package.json # Project metadata and dependencies ├── package-lock.json # Dependency lock file ├── index.js # App entry point └── README.md # Project documentation ``` </pre>
+<pre>  splitapp/ ├── controllers/ │ ├── expensesController.js # Logic for adding, updating, deleting expenses │ └── settlementsController.js # Logic for balances and settlements │ ├── config/ │ └── config.js # MongoDB Atlas connection │ ├── models/ │ └── Expense.js # Mongoose schema for expenses │ ├── routes/ │ ├── expenses.js # Routes for expense management │ └── settlements.js # Routes for people, balances, settlements │ ├── .env # Environment variables (not committed) ├── .gitignore # Ignore node_modules, .env, etc. ├── package.json # Project metadata and dependencies ├── package-lock.json # Dependency lock file ├── index.js # App entry point └── README.md # Project documentation </pre>
 ---
 
 ## Postman Collection : https://grey-eclipse-705978.postman.co/workspace/Postman-API-Fundamentals-Studen~c7a10f4a-2b4b-4a77-86b5-be8d2b27326a/collection/36784893-78d55ec8-eaee-4784-b05d-2d753eb6f6c3?action=share&creator=36784893
