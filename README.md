@@ -30,13 +30,27 @@ Built using **Node.js**, **Express.js**, and **MongoDB Atlas**.
 
 ## Folder Structure
 
-split-app-backend/
-├── controllers/ # Business logic
-├── models/ # Mongoose models
-├── routes/ # API routing
-├── db/ # MongoDB connection
-├── .env # Environment variables
-├── index.js # Entry point
+splitapp/
+├── controllers/
+│   ├── expensesController.js       # Logic for adding, updating, deleting expenses
+│   └── settlementsController.js    # Logic for balances and settlements
+│
+├── config/
+│   └── config.js                  # MongoDB Atlas connection logic
+│
+├── models/
+│   └── Expense.js                  # Mongoose schema for expenses
+│
+├── routes/
+│   ├── expenses.js                 # Routes for expense management
+│   └── settlements.js              # Routes for people, balances, settlements
+│
+├── .env                            # Environment variables 
+├── .gitignore                      # Ignore node_modules, .env, etc.
+├── package.json                    # Project metadata and dependencies
+├── package-lock.json               # Dependency lock file
+├── index.js                        # Entry point of the application
+├── README.md                       # Project documentation
 
 ---
 
