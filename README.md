@@ -38,4 +38,6 @@ split-app-backend/
 ├── .env # Environment variables
 ├── index.js # Entry point
 
+---
+
 ## Postman Collection : https://grey-eclipse-705978.postman.co/workspace/Postman-API-Fundamentals-Studen~c7a10f4a-2b4b-4a77-86b5-be8d2b27326a/collection/36784893-78d55ec8-eaee-4784-b05d-2d753eb6f6c3?action=share&creator=36784893
