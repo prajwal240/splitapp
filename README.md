@@ -30,7 +30,27 @@ Built using **Node.js**, **Express.js**, and **MongoDB Atlas**.
 
 ## Folder Structure
 
-<pre> ``` splitapp/ ├── controllers/ │ ├── expensesController.js # Logic for adding, updating, deleting expenses │ └── settlementsController.js # Logic for balances and settlements │ ├── config/ │ └── config.js # MongoDB Atlas connection │ ├── models/ │ └── Expense.js # Mongoose schema for expenses │ ├── routes/ │ ├── expenses.js # Routes for expense management │ └── settlements.js # Routes for people, balances, settlements │ ├── .env # Environment variables (not committed) ├── .gitignore # Ignore node_modules, .env, etc. ├── package.json # Project metadata and dependencies ├── package-lock.json # Dependency lock file ├── index.js # App entry point └── README.md # Project documentation ``` </pre>
+splitapp/
+├── controllers/
+│   ├── expensesController.js       # Logic for adding, updating, deleting expenses
+│   └── settlementsController.js    # Logic for balances and settlements
+│
+├── config/
+│   └── config.js                  # MongoDB Atlas connection logic
+│
+├── models/
+│   └── Expense.js                  # Mongoose schema for expenses
+│
+├── routes/
+│   ├── expenses.js                 # Routes for expense management
+│   └── settlements.js              # Routes for people, balances, settlements
+│
+├── .env                            # Environment variables (do not commit)
+├── .gitignore                      # Ignore node_modules, .env, etc.
+├── package.json                    # Project metadata and dependencies
+├── package-lock.json               # Dependency lock file
+├── index.js                        # Entry point of the application
+└── README.md                       # Project documentation
 
 ---
 
