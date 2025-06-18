@@ -5,7 +5,7 @@ This is the backend API for the **Split App**, a simplified version of apps like
 Built using **Node.js**, **Express.js**, and **MongoDB Atlas**.
 
 ---
-## API : https://splitapp-bk0h.onrender.com
+### API : https://splitapp-bk0h.onrender.com
 ---
 
 ## Features
@@ -27,5 +27,28 @@ Built using **Node.js**, **Express.js**, and **MongoDB Atlas**.
 - **Testing**: Postman (public collection)
 
 ---
+## Setup Instructions
 
-## Postman Collection : https://grey-eclipse-705978.postman.co/workspace/Postman-API-Fundamentals-Studen~c7a10f4a-2b4b-4a77-86b5-be8d2b27326a/collection/36784893-78d55ec8-eaee-4784-b05d-2d753eb6f6c3?action=share&creator=36784893
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Create a .env File
+```bash
+MONGO_URL=mongodb_atlas connection string
+PORT=5001
+```
+### 4. Run the Server
+```bash
+npm start
+or
+npm run dev
+```
+---
+### Postman Collection : https://grey-eclipse-705978.postman.co/workspace/Postman-API-Fundamentals-Studen~c7a10f4a-2b4b-4a77-86b5-be8d2b27326a/collection/36784893-78d55ec8-eaee-4784-b05d-2d753eb6f6c3?action=share&creator=36784893
